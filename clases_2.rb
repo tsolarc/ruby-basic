@@ -17,7 +17,7 @@ class Agenda
 
   # Asi se guarda en el Map @Contactos
   #  {
-  #    "Tomas" => #<Contacto:0x00007ff nombre="Tomas", telefono="956448388", email="tsolar@gmail.com">,
+  #    "Bob" => #<Contacto:0x00007ff nombre="bob", telefono="111111111", email="bob@gmail.com">,
   #    "Alice"   => #<Contacto:0x00007ff nombre="Alice", telefono="222222222", email="alice@mail.com">
   #  }
 
