@@ -84,16 +84,16 @@ end
 end
 
 agenda = Agenda.new
-contacto_tomas = Contacto.new("Tomas", "956448388", "tsolar@gmail.com")
+contacto_bob = Contacto.new("Bob", "111111111", "bob@gmail.com")
 contacto_alice = Contacto.new("Alice", "222222222", "alice@mail.com")
 
-agenda.agregar_contacto(contacto_tomas.nombre, contacto_tomas.telefono, contacto_tomas.email)
+agenda.agregar_contacto(contacto_bob.nombre, contacto_bob.telefono, contacto_bob.email)
 agenda.agregar_contacto(contacto_alice.nombre, contacto_alice.telefono, contacto_alice.email)
 agenda.mostrar_contactos
-agenda.buscar_contacto_por_nombre(contacto_tomas.nombre)
+agenda.buscar_contacto_por_nombre(contacto_bob.nombre)
 
 agenda.eliminar_contacto(contacto_alice.nombre)
 agenda.mostrar_contactos
 
-agenda.actualizar_contacto("Tomas", nuevo_numero: "986133846", nuevo_email: "tsolarc@gmail.com")
+agenda.actualizar_contacto(contacto_bob.nombre), nuevo_numero: "111111112", nuevo_email: "bob@gmail.com")
 agenda.mostrar_contactos
