@@ -42,7 +42,7 @@ class Agenda
     end
   end
 
-def actualizar_contacto(nombre, nuevo_nombre: nil, nuevo_numero: nil, nuevo_email: nil)
+def actualizar_contacto(nombre, nuevo_numero: nil, nuevo_email: nil)
   contacto = @contactos[nombre]
 
   if contacto
