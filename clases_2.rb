@@ -38,7 +38,7 @@ class Agenda
       @contactos.delete(nombre)
       puts "Se ha eliminado a #{nombre} exitósamente de la agenda"
     else
-      puts "El contacto #{nombre} no existe en tu agenda, ¿quieres agregarlo"
+      puts "El contacto #{nombre} no existe en tu agenda, ¿quieres agregarlo?"
     end
   end
 
@@ -95,5 +95,5 @@ agenda.buscar_contacto_por_nombre(contacto_bob.nombre)
 agenda.eliminar_contacto(contacto_alice.nombre)
 agenda.mostrar_contactos
 
-agenda.actualizar_contacto(contacto_bob.nombre), nuevo_numero: "111111112", nuevo_email: "bob@gmail.com")
+agenda.actualizar_contacto(contacto_bob.nombre, nuevo_numero: "111111112", nuevo_email: "bob@gmail.com")
 agenda.mostrar_contactos
